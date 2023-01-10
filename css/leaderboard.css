@@ -1,0 +1,99 @@
+.appcontainer table, .appcontainer td, .appcontainer thead, .appcontainer th{
+    border: 1px solid rgba(255, 255, 255, 0.548); 
+    border-collapse: collapse;
+  }
+  .gousername{
+    position: fixed;
+    top: 30px;
+    left: 315px;
+    background-color: #008ac9; /* Green */
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  .gousername a{
+    text-decoration: none;
+  
+  }
+  .gousername a:link{
+    color:white;
+  }
+  .gousername a:visited{
+    color:white;
+  }
+  .gousername a:hover{
+    color:white;
+  }
+  .gousername a:focus{
+    color:white;
+  }
+  .gousername a:active{
+    color:white;
+  }
+  .appcontainer {
+    position: absolute;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #1461b9;
+    
+  }
+  .base{
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    margin: 10px;
+    transform: translate(-50%, -0%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  .base h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(180, 180, 180);
+    text-align: center;
+  }
+  .base h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: rgb(180, 180, 180);
+      text-align: center;
+  }
+  .username{
+    background: rgba(0, 138, 201, .6);
+    color: #fff;
+    box-shadow: 0 0 1px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 3px #03e9f4,
+                0 0 4px #03e9f4;
+  }
+  .base table{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(180, 180, 180);
+    text-align: center;
+  }
+  .base thead{
+    text-align: center;
+    height: 30px;
+  }
+  .first{
+    table-layout: auto;
+    text-align: center;
+    width: 80px;
+    height: 23px;
+  }
+  .second{
+    table-layout: auto;
+    width: 180px;
+  }
+  .third{
+    table-layout: auto;
+    width: 180px;
+  }
+  .fourth{
+    table-layout: auto;
+    width: 180px;
+  }

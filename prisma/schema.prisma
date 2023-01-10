@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model cockie {
+  id          Int     @id
+  username    String? @unique(map: "username") @db.VarChar(16)
+  cockie      Int?
+  autoclicker Int?
+}
+
+model user {
+  username String  @id @db.VarChar(16)
+  email    String? @db.VarChar(64)
+  password String? @db.VarChar(32)
+}
